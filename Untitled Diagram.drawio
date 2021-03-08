@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T03:15:29.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LnKXe9HzorXF4BNbAyNM" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-08T03:21:45.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="9aekHSMSsfOKlgxnuNod" version="14.4.4" type="github" pages="2">
   <diagram id="JHB0V9J83hy231VBSRS5" name="时序图">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,10 +1019,52 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j1maZ3PwmT0PPYRGeJKk" name="流程图">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GTBIIHUijziVZcfz0fXT-0" />
         <mxCell id="GTBIIHUijziVZcfz0fXT-1" parent="GTBIIHUijziVZcfz0fXT-0" />
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="ZBOT-Dl1b58GQsF9GZ2X-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="360" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-1" value="实例创建" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="370" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-4" value="创建失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="640" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-5" value="创建成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="70" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-9" value="资源检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="355" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-10" value="" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="ZBOT-Dl1b58GQsF9GZ2X-11" target="ZBOT-Dl1b58GQsF9GZ2X-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="200" as="sourcePoint" />
+            <mxPoint x="495" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="210" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-11" value="资源检查" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="315" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-12" value="检查不通过&lt;br&gt;mdw=smdw&lt;br&gt;sdw1=sdw2=sdw3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="485" y="220" width="125" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
