@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T03:22:28.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="MAc6sN3vUWwv_lWeO7Wu" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-08T03:33:07.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Hm2hebNmMOeABqbgRfwF" version="14.4.4" type="github" pages="2">
   <diagram id="JHB0V9J83hy231VBSRS5" name="时序图">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1046,8 +1046,11 @@
         <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-5" value="创建成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
           <mxGeometry x="70" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-9" value="存储实例信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
-          <mxGeometry x="355" y="290" width="90" height="40" as="geometry" />
+        <mxCell id="zVA1TYOQvtIa609AZ-eP-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="ZBOT-Dl1b58GQsF9GZ2X-9" target="zVA1TYOQvtIa609AZ-eP-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-9" value="存储实例信息，&lt;br&gt;设置状态为：&lt;span&gt;agent_offline&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="330" y="290" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-10" value="" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="ZBOT-Dl1b58GQsF9GZ2X-11" target="ZBOT-Dl1b58GQsF9GZ2X-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1064,6 +1067,21 @@
         </mxCell>
         <mxCell id="ZBOT-Dl1b58GQsF9GZ2X-12" value="检查不通过&lt;br&gt;mdw=smdw&lt;br&gt;sdw1=sdw2=sdw3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
           <mxGeometry x="485" y="220" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lAl8n7N4P8yjm4t54daC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="zVA1TYOQvtIa609AZ-eP-0" target="lAl8n7N4P8yjm4t54daC-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVA1TYOQvtIa609AZ-eP-0" value="通知RM进行安装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="327.5" y="390" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FYWlqTIok6GxMV1A6hTw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GTBIIHUijziVZcfz0fXT-1" source="lAl8n7N4P8yjm4t54daC-0" target="FYWlqTIok6GxMV1A6hTw-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAl8n7N4P8yjm4t54daC-0" value="遍历所有主机，等待状态变为agent_online" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="327.5" y="470" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FYWlqTIok6GxMV1A6hTw-0" value="修改状态为&lt;span&gt;provisioned&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="GTBIIHUijziVZcfz0fXT-1">
+          <mxGeometry x="327.5" y="585" width="150" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
