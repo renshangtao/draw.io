@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T03:48:34.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="WF0SPIVlMVXP26c6TObj" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-08T03:50:29.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="rf1e4ZILV1ZDhXx_C4Hn" version="14.4.4" type="github" pages="2">
   <diagram id="JHB0V9J83hy231VBSRS5" name="时序图">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,26 +194,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x7ms55XIc7-pgnnKO1B8-42" value="遍历所有主机&lt;br&gt;修改状态为&lt;br&gt;agent_online" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="672" width="90" height="50" as="geometry" />
+          <mxGeometry x="236" y="657.15" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x7ms55XIc7-pgnnKO1B8-43" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="669.31" as="sourcePoint" />
-            <mxPoint x="360" y="669" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x7ms55XIc7-pgnnKO1B8-44" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="730" as="sourcePoint" />
-            <mxPoint x="210" y="730" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x7ms55XIc7-pgnnKO1B8-45" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
+        <mxCell id="x7ms55XIc7-pgnnKO1B8-45" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1" source="ttu63wnwoUbBbuzjsD4v-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="670" as="sourcePoint" />
             <mxPoint x="210" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="700" />
+              <mxPoint x="250" y="682" />
             </Array>
           </mxGeometry>
         </mxCell>
