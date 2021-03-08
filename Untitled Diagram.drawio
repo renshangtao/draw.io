@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T02:05:03.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ojNVt8SrEaHI72Ml3hZ7" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T02:05:36.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="_XrAG-Y8SmCNH_UTNMfx" version="14.4.4" type="github">
   <diagram id="JHB0V9J83hy231VBSRS5" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -763,8 +763,8 @@
         <mxCell id="x7ms55XIc7-pgnnKO1B8-160" value="实例操作" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="50" y="2490" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x7ms55XIc7-pgnnKO1B8-161" value="实例删除" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="115" y="2647" width="60" height="20" as="geometry" />
+        <mxCell id="x7ms55XIc7-pgnnKO1B8-161" value="发送操作请求" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="2647" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x7ms55XIc7-pgnnKO1B8-162" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
