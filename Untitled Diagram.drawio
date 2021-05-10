@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T03:28:02.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="TTDyGM6Tk3K3GX5lzeo5" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-10T03:32:09.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="TeQyDA8KY3zsls-cjQ7d" version="14.6.11" type="github" pages="3">
   <diagram id="JHB0V9J83hy231VBSRS5" name="时序图">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1772,11 +1772,38 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="gMLkKBFk4su2x8776vck" name="第 3 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="gMLkKBFk4su2x8776vck" name="websocket">
+    <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J1XEA8xBQjXvuOKg34X--0" />
         <mxCell id="J1XEA8xBQjXvuOKg34X--1" parent="J1XEA8xBQjXvuOKg34X--0" />
+        <mxCell id="J1XEA8xBQjXvuOKg34X--2" value="WsSocket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1XEA8xBQjXvuOKg34X--1">
+          <mxGeometry x="260" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J1XEA8xBQjXvuOKg34X--3" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1XEA8xBQjXvuOKg34X--1">
+          <mxGeometry x="-40" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J1XEA8xBQjXvuOKg34X--4" value="Consul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1XEA8xBQjXvuOKg34X--1">
+          <mxGeometry x="570" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gAKvtbBKIm69-Iqs7F6V-0" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="J1XEA8xBQjXvuOKg34X--1" target="J1XEA8xBQjXvuOKg34X--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="690" as="sourcePoint" />
+            <mxPoint x="340" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAKvtbBKIm69-Iqs7F6V-1" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="J1XEA8xBQjXvuOKg34X--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.66" y="690" as="sourcePoint" />
+            <mxPoint x="319.66" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAKvtbBKIm69-Iqs7F6V-2" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="J1XEA8xBQjXvuOKg34X--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629.6599999999999" y="690" as="sourcePoint" />
+            <mxPoint x="629.6599999999999" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
